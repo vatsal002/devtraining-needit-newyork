@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <name>NeedIt - Next Quarter</name>
+        <query_condition table="x_58872_needit_needit">active=true^u_when_neededONNext quarter@javascript:gs.beginningOfNextQuarter()@javascript:gs.endOfNextQuarter()^ORDERBYnumber<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="Next quarter@javascript:gs.beginningOfNextQuarter()@javascript:gs.endOfNextQuarter()"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 20:14:35</sys_created_on>
+        <sys_id>4324d9841bc300106f9d4375cc4bcbe2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt - Next Quarter</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_data_item_4324d9841bc300106f9d4375cc4bcbe2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 20:14:35</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=4324d9841bc300106f9d4375cc4bcbe2"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>3e069fc3db0c8cd49df22f17d4961919</instance_id>
+        <instance_name>dev93940</instance_name>
+        <name>sys_sg_data_item_4324d9841bc300106f9d4375cc4bcbe2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description/><group_by/><name>NeedIt - Next Quarter</name><query_condition table="x_58872_needit_needit">active=true^u_when_neededONNext quarter@javascript:gs.beginningOfNextQuarter()@javascript:gs.endOfNextQuarter()^ORDERBYnumber<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="ON" or="false" value="Next quarter@javascript:gs.beginningOfNextQuarter()@javascript:gs.endOfNextQuarter()"/><item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-02-13 20:14:35</sys_created_on><sys_id>4324d9841bc300106f9d4375cc4bcbe2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt - Next Quarter</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_sg_data_item_4324d9841bc300106f9d4375cc4bcbe2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-02-13 20:14:35</sys_updated_on><table>x_58872_needit_needit</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=4324d9841bc300106f9d4375cc4bcbe2"/></record_update>]]></payload>
+        <payload_hash>1487952731</payload_hash>
+        <record_name>NeedIt - Next Quarter</record_name>
+        <reverted_from/>
+        <source>a75199001bc300106f9d4375cc4bcbca</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-13 20:14:35</sys_created_on>
+        <sys_id>8324d9841bc300106f9d4375cc4bcbe5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17040305a5e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-13 20:14:35</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>8b24d984aec3001008e5f3e818f1f7e4</update_guid>
+        <update_guid_history>8b24d984aec3001008e5f3e818f1f7e4:1487952731</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-14 19:28:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>19cc6977dce14480be8b4427183154b1</sys_id>
+        <sys_metadata>4324d9841bc300106f9d4375cc4bcbe2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt - Next Quarter</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_4324d9841bc300106f9d4375cc4bcbe2</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_4324d9841bc300106f9d4375cc4bcbe2">8324d9841bc300106f9d4375cc4bcbe5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-14 19:28:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
